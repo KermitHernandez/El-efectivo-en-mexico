@@ -1,1 +1,210 @@
-<h1> El efectivo en Mexico </h1>
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>¿Desaparece el efectivo en Mexico?</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/imagen1.png" id="logotipo">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1" style="color: white;">El efectivo en Mexico</a>
+          <a href="#secc2" style="color: white;">De lo fisico a lo digital</a>
+          <a href="#secc3" style="color: white;">Desventajas de su desaparicion</a>
+          <a href="#secc4" style="color: white;">Conclusiones</a>
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>El efectivo en Mexico</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Seguramente algunas personas se hayan encontrado en la situación de no acostumbrar a poseer dinero en efectivo viendo las facilidades actuales que hay para poder pagar distintos artículos y servicios a través de pagos digitales. Actualmente se han añadido muchas herramientas que nos ayudan a proteger muchísimo más nuestro dinero digitalmente como los bloqueos de tarjeta, el ajuste de límites, protección de dos pasos a cuentas bancarias, entre otros, siendo más cómodo manejar el dinero desde estos medios. </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Con el auge de la banca digital, las criptomonedas, han surgido rumores sobre la posible desaparición de la moneda metálica, una gran mayoría de personas han optado por utilizas mas recurrentemente estos medios digitales de pago en vez de utilizar el dinero físicamente ya sea por comodidad o seguridad y aunque el dinero en efectivo siga siendo utilizado hay teorías que nos advierten de su posible desaparición en futuros años ¿Es algo inminente? ¿Se trata de algo apocalíptico y de la ciencia ficción?</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    		<div class="imgs-secc-1">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/imgp1.png" title="Img 1a">
+	        		<img src="imagenes/imgp2.png" title="Img 1b" id="imgp1_efectivo">
+    			</div>
+    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--texto para imagen a la izquierda-->
+	        		<p>El efectivo es de uso inmediato, de mayor acceso al publico en general.</p>
+	        		<!--texto para imagen a la derecha-->
+	        		<p>El dinero en tarjetas de debito o credito esta mucho mas seguro y puede generar mayor rendimiento.</p>
+        		<!--contenedor con las dos imagenes en su version mobile-->
+        		
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>De lo fisico a lo digital</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>La tecnología evoluciona a pasos agigantados y, con ello, nuestra forma de vivir la vida. En este contexto, la gestión rutinaria de nuestros cobros y gastos la realizamos a través de nuestro propio smartphone o mediante el navegador de internet en el ordenador. A pesar de que el mundo se ha digitalizado de manera imparable, y de que hoy en día realizamos pagos continuamente con el teléfono móvil o smartwatch, pero nunca está de más llevar en el bolsillo unas cuantas monedas por si las moscas.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Hay que recordar que algunos pequeños comercios no aceptan cierta cantidad de dinero con tarjeta en sus respectivos TPV (terminal punto de venta) y debemos pagar en efectivo, por aquello de que los bancos les cobran una comisión. A todos nos ha pasado eso de vernos en un apuro por ir a pagar y que te lancen un «No se puede con tarjeta».</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>Para que una solución de pago tenga éxito la gente debe acostumbrarse a ella para que le resulte más fácil abandonar el uso de efectivo. Por ello, con la evolución de los servicios financieros, la digitalización y la innovación deben de ir de la mano.</p>
+		        <br>
+		        <p>El crecimiento exponencial de la tecnología ha tenido un gran impacto, tanto en el comportamiento del consumidor, como en el modelo de distribución de la banca. </p>
+
+		        <div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/imagen2.png" title="Img 2">
+        		<i>Texto de imagen: En México el 93% de la población objetivo (47.6 mdp) acostumbra usar efectivo.</i>
+        		<!--texto para la imagen-->
+        			</div>
+
+        		<p>Naturalmente esto provocó que hace una década la institución bancaria BBVA iniciará su camino hacia la transformación digital para moverse de la banca tradicional, que seguirá prestando sus servicios, pero de manera más especializada, hacia soluciones digitales sencillas en la Aplicación para acompañar a sus clientes en la adopción de la banca digital.</p>
+        		<br>
+		        <p>Estos avances tecnológicos han hecho que expertos opinen que este cambio del dinero tradicional al dinero digital sería beneficioso solo para aquellas personas que tengas acceso a esta tecnología lo que pondrá en riesgo a las clases bajas. Una de las ventajas del dinero en efectivo es que cualquier persona puede tener acceso a el desde diferentes instituciones bancarías, moviendo el dinero entre su comunidad, el retirar esta ventaja puede obstruir la manera en la que se mueve el dinero en estas comunidades.</p>
+		        <br>
+		        <p>Hugo Nájera, director general de Soluciones al Cliente de BBVA México resaltó que si bien BBVA México cuenta con 18.4 millones clientes digitales (el 68%) y el 60% de las transacciones se realizan de manera digital, esto sigue siendo un reto. “Aquí es donde no hemos avanzado y eso tiene que ver con el efectivo. Hay un elemento que no hemos logrado hacer: que el celular reciba dinero y que saque dinero”. Asimismo, dijo que la preferencia del consumidor (cliente) que se relaciona a través del móvil es de 83.9% que se compara con un 66.2% que se relaciona en cualquiera de los otros canales. Por otro lado, resaltó que el 62% de las cuentas se abren por celular siendo el canal de adquisición más importante del banco. También indicó que las sucursales en un futuro, más que vendedores de productos financieros, se irán convirtiendo en asesores financieros para los clientes.</p>
+		        <br>
+		        <p>A pesar de los logros del banco, México aún está muy lejos de eliminar el efectivo. “En los países desarrollados sólo el 18% de la población realiza transacciones en efectivo, mientras que en el país las transacciones de menos de 500 pesos se hacen en efectivo y cuando se habla de transacciones de mayores de 700 pesos el 73% siguen siendo en efectivo'', señaló el directivo.</p>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Desventajas de su desaparicion</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>La desaparición del efectivo en México, como en cualquier país, presenta varias desventajas, especialmente considerando las condiciones económicas y sociales del país. Algunas de las principales desventajas serían:</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Exclusión financiera: A pesar del aumento en el uso de tecnologías financieras, una parte importante de la población en México sigue sin acceso a servicios bancarios o digitales. Esto afectaría a personas de bajos recursos o que viven en áreas rurales alejadas de tecnologías mas sofisticadas.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/imagen3.png" title="Img 3">
+        		<!--texto para la imagen-->
+        		<i>Las instituciones que registraron un mayor número de quejas por posibles fraudes en el primer semestre fueron: Bancomer con el 26.4%, CitiBanamex con el 20.1%, Banorte IXE con 18.1%, Santander con 15.9% e Inbursa con 5.4%, principalmente.</i>
+    		</div>
+
+    		    <p>Riesgos de ciberseguridad: El uso exclusivo de pagos digitales aumenta el riesgo de fraudes en línea, robos de identidad y ataques cibernéticos. Esto podría afectar la confianza en el sistema financiero, actualmente se han creado cientos de métodos para la protección de los usuarios, pero para esta nueva tecnología siempre se crean métodos maliciosos.</p>
+    		    <br>
+    		    <p>Impacto en la economía informal: Gran parte de la economía mexicana opera en el sector informal, donde las transacciones en efectivo son comunes. La eliminación del efectivo podría dificultar las operaciones de este sector, afectando el empleo y el sustento de millones de personas.</p>
+    		    <br>
+    		    <p>Costos de transición: Adoptar una economía totalmente digital implicaría costos de infraestructura y capacitación tanto para el gobierno como para los ciudadanos, especialmente para aquellos menos familiarizados con la tecnología.</p>
+    		    <br>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+         </div>
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Conclusion</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Con todo lo antes mencionado, ¿Qué podemos concluir? ¿Se acabará el efectivo en México? ¿Estamos a pocos años de una revolución completa de nuestra economía?</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Con lo adjunto puedo concluir que no, no estamos cerca de que el efectivo desaparezca de México. Claro que hemos tenido grandes avances tecnológicos que nos han ayudado a poder agilizar en nuestras compras y en las ventas de los negocios y que muchas herramientas digitales se han empezado a convertir en norma en diferentes negocios y emprendimientos.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>El uso de herramientas digitales de pago tiene múltiples beneficios como la seguridad y el seguimiento de todas las transacciones con tal de combatir a la corrupción, la facilidad de pago, la rapidez en los negocios, entre otras, pero aún falta mucho tiempo para que los pagos electrónicos sean el único movimiento económico en México. Aun hay muchas comunidades que no tienen acceso a los servicios básicos e indispensables para una vida plena y digna y serían estas mismas comunidades las más afectadas con la desaparición del efectivo.</p>
+		        <br>
+		        <p>Dentro de varios años tal vez se vuelva una opción muchísimo mas segura y se aseguren de que todos y cada uno de los mexicanos tengan acceso a esta nueva tecnología, pero por lo tanto el efectivo se seguirá manejando con total normalidad.</p>
+		        <br>
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/imagen4.png" title="Img 4">
+        		<!--texto para la imagen-->
+        		<i>Tanto el uso de efectivo como el uso de las tarjetas tienen ventajas y desventajas, por ejemplo: El efectivo es de disponibilidad inmediata pero las personas suelen gastarlo mas rápido y es más susceptible a perderse, las tarjetas son mas seguras en su guardado, pero no está disponible su uso en muchas partes lo que limita su uso. </i>
+    		</div>
+
+    	</div>
+
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://twitter.com/">
+	      	<img src="imagenes/twt.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="http://instagram.com/">
+	      	<img src="imagenes/inst.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <i>Todos los derechos a sus respectivos autores</i>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	    </a>
+
+</body>
+
+</html>
